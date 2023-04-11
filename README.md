@@ -3,6 +3,8 @@
 
 This repository demonstrates the use of the open-source R package [`lmtp`]() to estimate the effects of delaying intubation on mortality in a cohort of hospitalized COVID-19 patients during Spring 2020, as described in [Hoffman et al. (2023)]().
 
+![](manuscript_figs/fig1.jpg)
+
 ### What are LMTPs?
 
 Longitudinal Modified Treatment Policies (LMTPs) are a recently developed methodology for causal inference ([Diaz et al. (2021)](https://arxiv.org/pdf/2006.01366.pdf)). LMTPs generalize many commonly used parameters for causal inference including average treatment effects, and facilitate the mathematical formalization, identification, and estimation of many
