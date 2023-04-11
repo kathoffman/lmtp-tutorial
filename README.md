@@ -10,7 +10,7 @@ novel parameters. LMTPs apply to a wide variety of exposures, including binary, 
 
 ### About the application
 
-[Hoffman et al, 2023]() provides numerous examples of types of research questions which can be answered within the proposed framework, and then goes into more depth with one of these examples---specifically, estimating the effect of delaying intubation on critically ill COVID-19 patients' mortality. The study design is retrospective and uses electronic health records of 3,059 patients hospitalized with COVID-19 at New York Presbyterian hospital between March 1 and May 15, 2020. The exposure is categorical and time-varying, and the outcome is also time-to-event with informative right-censoring. Adjustment set includes dozens of baseline and time-varying confounders. The estimator is a sequentially doubly robust (SDR) estimator which utilizes regressions for the exposure and outcome. These exposure and outcome regressions utilized a superlearner ensemble of flexible machine learning regressions.
+[Hoffman et al.]() provides numerous examples of types of research questions which can be answered within the proposed framework, and then goes into more depth with one of these examples---specifically, estimating the effect of delaying intubation on critically ill COVID-19 patients' mortality. The study design is retrospective and uses electronic health records of 3,059 patients hospitalized with COVID-19 at New York Presbyterian hospital between March 1 and May 15, 2020. The exposure is categorical and time-varying, and the outcome is also time-to-event with informative right-censoring. Adjustment set includes dozens of baseline and time-varying confounders. The estimator is a sequentially doubly robust (SDR) estimator which utilizes regressions for the exposure and outcome. These exposure and outcome regressions utilized a superlearner ensemble of flexible machine learning regressions.
 
 ## Repository contents
 
@@ -22,7 +22,8 @@ novel parameters. LMTPs apply to a wide variety of exposures, including binary, 
 ### Supporting scripts: 
 
 - `R/vis.R` contains data visualization functions to plot incidence and incidence differences over time
-- `R/utils.R` contains helper functions to...
+- `R/utils.R` contains helper functions to clean results and summarize analyses (e.g. create marginal / simultaneous confidence intervals across all time points of incidence curve)
+- `R/assess_density_ratios.R` provides code to plot the density ratios across time to assess for potential positivity violations
 
 ## Additional resources
 
