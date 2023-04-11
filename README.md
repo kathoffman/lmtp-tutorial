@@ -19,7 +19,7 @@ novel parameters. LMTPs apply to a wide variety of exposures, including binary, 
 ### Main scripts: 
 
 - `R/run_lmtp.R` - main analysis script. sets up exposure, confounders, outcome, and runs `lmtp_sdr()` for an intervention and null intervention for all time points in the study.
-- `R/clean_results.R` - summarizes LMTP results. checks density ratios, and creates graphs of output.
+- `R/clean_results.R` - summarizes LMTP results as tibbles and creates graphs of output.
 
 ### Supporting scripts: 
 
@@ -34,3 +34,7 @@ novel parameters. LMTPs apply to a wide variety of exposures, including binary, 
 - [KHstats](https://www.khstats.com/blog/lmtp/lmtp.html)' introductory blog post on Modified Treatment Policies
 - [Diaz et al. (2021)](https://arxiv.org/pdf/2006.01366.pdf)'s original *Journal of the American Statistical Association* statistical methodology paper on LMTPs
 - [Diaz et al. (2022)](https://arxiv.org/abs/2202.03513)'s statistical methodology paper adapting LMTPs for competing risks data
+
+## Acknowledgements
+
+Several functions in `vis.R` and `utils.R` were adapted from code written by Dr. Nima Hejazi.
