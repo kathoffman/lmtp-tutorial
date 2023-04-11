@@ -1,7 +1,7 @@
 # Longitudinal Modified Treatment Policies (LMTPs): A unified framework for studying complex exposures
 ## Corresponding code guide for [Hoffman et al. (2023)]()
 
-*This repository demonstrates the use of the open-source R package [`lmtp`]() to estimate the effects of delaying intubation on mortality in a cohort of hospitalized COVID-19 patients during Spring 2020, as described in [Hoffman et al. (2023)]().*
+*This repository demonstrates the use of the open-source R package [`lmtp`](https://github.com/nt-williams/lmtp) to estimate the effects of delaying intubation on mortality in a cohort of hospitalized COVID-19 patients during Spring 2020, as described in [Hoffman et al. (2023)]().*
 
 ![](manuscript_figs/fig1.jpg)
 
