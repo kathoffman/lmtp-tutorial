@@ -1,7 +1,7 @@
 # Longitudinal Modified Treatment Policies (LMTPs): A unified framework for studying complex exposures
-## Corresponding code guide for [Hoffman et al. (2023)]()
+## Corresponding code guide for [Hoffman et al. (2023)](https://arxiv.org/pdf/2304.09460.pdf)
 
-*This repository demonstrates the use of the open-source R package [`lmtp`](https://github.com/nt-williams/lmtp) to estimate the effects of delaying intubation on mortality in a cohort of hospitalized COVID-19 patients during Spring 2020, as described in [Hoffman et al. (2023)]().*
+*This repository demonstrates the use of the open-source R package [`lmtp`](https://github.com/nt-williams/lmtp) to estimate the effects of delaying intubation on mortality in a cohort of hospitalized COVID-19 patients during Spring 2020, as described in [Hoffman et al. (2023)](https://arxiv.org/pdf/2304.09460.pdf).*
 
 ![](manuscript_figs/fig1.jpg)
 
@@ -12,7 +12,7 @@ novel parameters. LMTPs apply to a wide variety of exposures, including binary, 
 
 ### About the application
 
-[Hoffman et al.]() provides numerous examples of types of research questions which can be answered within the proposed framework, and then goes into more depth with one of these examples---specifically, estimating the effect of delaying intubation on critically ill COVID-19 patients' mortality. The study design is retrospective and uses electronic health records of 3,059 patients hospitalized with COVID-19 at New York Presbyterian hospital between March 1 and May 15, 2020. The exposure is categorical and time-varying, and the outcome is also time-to-event with informative right-censoring. Adjustment set includes dozens of baseline and time-varying confounders. The estimator is a sequentially doubly robust (SDR) estimator which utilizes regressions for the exposure and outcome. These exposure and outcome regressions utilized a superlearner ensemble of flexible machine learning regressions.
+[Hoffman et al.](https://arxiv.org/pdf/2304.09460.pdf) provides numerous examples of types of research questions which can be answered within the proposed framework, and then goes into more depth with one of these examples---specifically, estimating the effect of delaying intubation on critically ill COVID-19 patients' mortality. The study design is retrospective and uses electronic health records of 3,059 patients hospitalized with COVID-19 at New York Presbyterian hospital between March 1 and May 15, 2020. The exposure is categorical and time-varying, and the outcome is also time-to-event with informative right-censoring. Adjustment set includes dozens of baseline and time-varying confounders. The estimator is a sequentially doubly robust (SDR) estimator which utilizes regressions for the exposure and outcome. These exposure and outcome regressions utilized a superlearner ensemble of flexible machine learning regressions.
 
 ## Repository contents
 
